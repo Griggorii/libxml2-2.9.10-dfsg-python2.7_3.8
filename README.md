@@ -10,7 +10,7 @@ inpack libxml2-2.9.10+dfsg.zip cd libxml2-2.9.10+dfsg/
 
 ./autogen.sh
 
-./configure --prefix=/usr --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --sysconfdir=/etc --localstatedir=/var --exec-prefix=/usr/lib/x86_64-linux-gnu/
+./configure --prefix=/usr --exec_prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --includedir=/usr/include
 
 make -j16
 
